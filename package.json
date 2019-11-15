@@ -15,8 +15,8 @@
   "keywords": [
     "eslint",
     "eslint-config",
-    "typescript",
-    "react"
+    "eslint-typescript",
+    "eslint-react"
   ],
   "scripts": {
     "postversion": "git push && git push --tags"
