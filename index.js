@@ -3,7 +3,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ['standard', 'plugin:prettier/recommended', 'prettier/standard'],
+  extends: ['plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 2018,
   },

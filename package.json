@@ -26,22 +26,17 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 2",
     "eslint": ">= 6",
-    "eslint-plugin-import": ">= 2",
-    "eslint-plugin-node": ">= 1",
     "eslint-plugin-prettier": ">= 3",
-    "eslint-plugin-promise": ">= 4",
-    "eslint-plugin-react": ">= 7",
-    "eslint-plugin-react-hooks": ">= 2",
     "eslint-plugin-sort-destructure-keys": ">= 1",
-    "eslint-plugin-standard": ">= 4",
     "prettier": ">= 1"
   },
   "dependencies": {
-    "@mskelton/prettier-config": "^5.1.1",
     "@typescript-eslint/parser": "^2.4.0",
-    "eslint-config-prettier": "^6.4.0",
-    "eslint-config-standard": "^14.1.0"
+    "eslint-config-prettier": "^6.4.0"
+  },
+  "devDependencies": {
+    "@mskelton/prettier-config": "^5.1.1",
+    "prettier": "^1.19.1"
   }
 }
