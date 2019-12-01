@@ -1,6 +1,6 @@
 # Changelog
 
-## v5.2.0
+## v5.2.1
 
 - Remove ESLint standard
 - Remove some peer dependencies

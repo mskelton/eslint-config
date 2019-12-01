@@ -8,7 +8,7 @@
 
 ## Description
 
-This package contains a simple and sensible ESLint config that you can use to get up and running with a TypeScript or JavaScript project. It uses the [TypeScript ESLint parser][ts-eslint-parser], [Prettier][prettier], and [Standard JS][standard].
+This package contains a simple and sensible ESLint config that you can use to get up and running with a TypeScript or JavaScript project. It uses the [TypeScript ESLint parser][ts-eslint-parser] and [Prettier][prettier].
 
 ## Installation
 
@@ -24,10 +24,10 @@ After installing the package, install the required peer dependencies.
 
 ```sh
 # Yarn
-yarn add --dev eslint eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-sort-destructure-keys eslint-plugin-standard prettier
+yarn add --dev eslint eslint-plugin-prettier eslint-plugin-sort-destructure-keys prettier
 
 # npm
-npm install --save-dev eslint eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-sort-destructure-keys eslint-plugin-standard prettier
+npm install --save-dev eslint eslint-plugin-prettier eslint-plugin-sort-destructure-keys prettier
 ```
 
 ### TypeScript
@@ -94,4 +94,3 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 [ts-eslint-parser]: https://github.com/typescript-eslint/typescript-eslint
 [prettier]: https://prettier.io
-[standard]: https://standardjs.com
