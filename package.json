@@ -1,7 +1,7 @@
 {
   "name": "@mskelton/eslint-config",
   "description": "Simple and sensible ESLint config.",
-  "version": "5.2.1",
+  "version": "5.3.0",
   "author": "Mark Skelton",
   "repository": {
     "type": "git",
