@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.3.0
+
+- JSX reserved props first
+
 ## v5.2.1
 
 - Remove ESLint standard
