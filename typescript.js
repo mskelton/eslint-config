@@ -10,6 +10,12 @@ module.exports = {
       rules: {
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-useless-constructor': 'error',
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {
+            argsIgnorePattern: '^_',
+          },
+        ],
         'no-useless-constructor': 'off',
       },
     },

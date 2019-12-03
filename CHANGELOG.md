@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.3.2
+
+Allow underscore as an unused variable.
+
 ## v5.3.1
 
 Use `babel-eslint` to allow parsing of Babel code.
