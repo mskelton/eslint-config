@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.3.1
+
+Use `babel-eslint` to allow parsing of Babel code.
+
 ## v5.3.0
 
 - JSX reserved props first
