@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.4.0
+
+Turn off TypeScript non-null assertion check.
+
 ## v5.3.2
 
 Allow underscore as an unused variable.
