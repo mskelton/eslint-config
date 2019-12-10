@@ -8,7 +8,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
   },
-  plugins: ['sort-destructure-keys'],
+  plugins: ['sort-keys-fix', 'sort-destructure-keys'],
   rules: {
     'no-unused-vars': [
       'error',
@@ -20,6 +20,6 @@ module.exports = {
       'error',
       { caseSensitive: false },
     ],
-    'sort-keys': 'error',
+    'sort-keys-fix/sort-keys-fix': ['warn', 'asc', { caseSensitive: false }],
   },
 }

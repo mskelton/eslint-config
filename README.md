@@ -24,10 +24,10 @@ After installing the package, install the required peer dependencies.
 
 ```sh
 # Yarn
-yarn add --dev eslint eslint-plugin-prettier eslint-plugin-sort-destructure-keys prettier
+yarn add --dev eslint eslint-plugin-prettier eslint-plugin-sort-keys-fix eslint-plugin-sort-destructure-keys prettier
 
 # npm
-npm install --save-dev eslint eslint-plugin-prettier eslint-plugin-sort-destructure-keys prettier
+npm install --save-dev eslint eslint-plugin-prettier eslint-plugin-sort-keys-fix eslint-plugin-sort-destructure-keys prettier
 ```
 
 ### TypeScript

@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.5.0
+
+Add [eslint-plugin-sort-keys-fix](https://www.npmjs.com/package/eslint-plugin-sort-keys-fix) to auto sort object keys.
+
 ## v5.4.0
 
 Turn off TypeScript non-null assertion check.
