@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.6.0
+
+Automatically add Jest to the environment for test files.
+
 ## v5.5.0
 
 Add [eslint-plugin-sort-keys-fix](https://www.npmjs.com/package/eslint-plugin-sort-keys-fix) to auto sort object keys.
