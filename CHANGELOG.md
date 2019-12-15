@@ -1,6 +1,6 @@
 # Changelog
 
-## v5.6.0
+## v5.6.1
 
 Automatically add Jest to the environment for test files.
 
