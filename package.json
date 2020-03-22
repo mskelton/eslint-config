@@ -33,12 +33,12 @@
     "prettier": ">= 1"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.4.0",
-    "babel-eslint": "^10.0.3",
-    "eslint-config-prettier": "^6.4.0"
+    "@typescript-eslint/parser": "^2.24.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.10.1"
   },
   "devDependencies": {
     "@mskelton/prettier-config": "^5.1.1",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.1"
   }
 }
