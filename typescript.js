@@ -2,23 +2,23 @@ module.exports = {
   overrides: [
     {
       extends: [
-        'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
       ],
-      files: ['*.ts', '*.tsx'],
-      parser: '@typescript-eslint/parser',
+      files: ["*.ts", "*.tsx"],
+      parser: "@typescript-eslint/parser",
       rules: {
-        '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/no-non-null-assertion': 'off',
-        '@typescript-eslint/no-useless-constructor': 'error',
-        '@typescript-eslint/no-unused-vars': [
-          'error',
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-useless-constructor": "error",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
           {
-            argsIgnorePattern: '^_',
+            argsIgnorePattern: "^_",
           },
         ],
-        'no-useless-constructor': 'off',
+        "no-useless-constructor": "off",
       },
     },
   ],
-}
+};
