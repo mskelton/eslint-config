@@ -3,6 +3,7 @@
 [![Build status](https://github.com/mskelton/eslint-config/workflows/Build/badge.svg)](https://github.com/mskelton/eslint-config/actions)
 [![package version](https://img.shields.io/npm/v/@mskelton/eslint-config)](https://www.npmjs.com/package/@mskelton/eslint-config)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 > Simple and sensible ESLint config.
 
@@ -13,20 +14,12 @@ This package contains a simple and sensible ESLint config that you can use to ge
 ## Installation
 
 ```sh
-# Yarn
-yarn add --dev @mskelton/eslint-config
-
-# npm
 npm install --save-dev @mskelton/eslint-config
 ```
 
 After installing the package, install the required peer dependencies.
 
 ```sh
-# Yarn
-yarn add --dev eslint eslint-plugin-prettier eslint-plugin-sort-keys-fix eslint-plugin-sort-destructure-keys prettier
-
-# npm
 npm install --save-dev eslint eslint-plugin-prettier eslint-plugin-sort-keys-fix eslint-plugin-sort-destructure-keys prettier
 ```
 
@@ -35,10 +28,6 @@ npm install --save-dev eslint eslint-plugin-prettier eslint-plugin-sort-keys-fix
 If using TypeScript, install the following peer dependencies in addition to the list above.
 
 ```sh
-# Yarn
-yarn add --dev @typescript-eslint/eslint-plugin
-
-# npm
 npm install --save-dev @typescript-eslint/eslint-plugin
 ```
 
@@ -47,10 +36,6 @@ npm install --save-dev @typescript-eslint/eslint-plugin
 If using React, install the following peer dependencies in addition to the list above.
 
 ```sh
-# Yarn
-yarn add --dev eslint-plugin-react eslint-plugin-react-hooks
-
-# npm
 npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
 ```
 
