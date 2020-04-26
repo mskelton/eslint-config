@@ -3,7 +3,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  extends: ["eslint:recommended", "plugin:sort/recommended", "prettier"],
   overrides: [
     {
       files: ["*.spec.js", "*.spec.jsx"],
@@ -16,7 +16,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
   },
-  plugins: ["sort-keys-fix", "sort-destructure-keys"],
+  plugins: ["sort"],
   rules: {
     "no-unused-vars": [
       "error",
@@ -24,10 +24,5 @@ module.exports = {
         argsIgnorePattern: "^_",
       },
     ],
-    "sort-destructure-keys/sort-destructure-keys": [
-      "error",
-      { caseSensitive: false },
-    ],
-    "sort-keys-fix/sort-keys-fix": ["warn", "asc", { caseSensitive: false }],
   },
 };
