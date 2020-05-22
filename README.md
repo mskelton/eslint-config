@@ -20,7 +20,7 @@ npm install --save-dev @mskelton/eslint-config
 After installing the package, install the required peer dependencies.
 
 ```sh
-npm install --save-dev eslint eslint-plugin-prettier eslint-plugin-sort prettier
+npm install --save-dev eslint eslint-plugin-sort
 ```
 
 ### TypeScript
