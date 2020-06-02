@@ -9,7 +9,7 @@
 
 ## Description
 
-This package contains a simple and sensible ESLint config that you can use to get up and running with a TypeScript or JavaScript project. It uses the [TypeScript ESLint parser][ts-eslint-parser] and [Prettier][prettier].
+This package contains a simple and sensible ESLint config that you can use to get up and running with a TypeScript or JavaScript project. It uses the [TypeScript ESLint parser](https://github.com/typescript-eslint/typescript-eslint) and [Prettier](https://prettier.io).
 
 ## Installation
 
@@ -29,6 +29,14 @@ If using TypeScript, install the following peer dependencies in addition to the 
 
 ```sh
 npm install --save-dev @typescript-eslint/eslint-plugin
+```
+
+### Jest
+
+If using Jest, install the following peer dependencies in addition to the list above.
+
+```sh
+npm install --save-dev eslint-plugin-jest
 ```
 
 ### React
@@ -53,9 +61,13 @@ In your `.eslintrc` file, add `@mskelton` to the list of extended configurations
 
 If using TypeScript, add `@mskelton/eslint-config/typescript` to the ESLint `extends` list.
 
+### Jest
+
+If using Jest, add `@mskelton/eslint-config/jest` to the ESLint `extends` list.
+
 ### React
 
-If using TypeScript, add `@mskelton/eslint-config/react` to the ESLint `extends` list.
+If using React, add `@mskelton/eslint-config/react` to the ESLint `extends` list.
 
 ## Contributors ✨
 
@@ -76,6 +88,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-[ts-eslint-parser]: https://github.com/typescript-eslint/typescript-eslint
-[prettier]: https://prettier.io

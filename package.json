@@ -21,6 +21,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "index.js",
+  "files": [
+    "typescript.js",
+    "jest.js",
+    "react.js"
+  ],
   "peerDependencies": {
     "eslint": ">= 6",
     "eslint-plugin-sort": ">= 1"

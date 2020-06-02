@@ -4,14 +4,6 @@ module.exports = {
     node: true,
   },
   extends: ["eslint:recommended", "plugin:sort/recommended", "prettier"],
-  overrides: [
-    {
-      files: ["*.spec.js", "*.spec.jsx"],
-      env: {
-        jest: true,
-      },
-    },
-  ],
   parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2018,
