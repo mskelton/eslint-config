@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
+    "react/self-closing-comp": "warn",
     "react/jsx-sort-props": [
       "error",
       {
