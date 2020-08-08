@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   extends: ["eslint:recommended", "plugin:sort/recommended", "prettier"],
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   parserOptions: {
     ecmaVersion: 2018,
   },
