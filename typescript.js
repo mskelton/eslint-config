@@ -17,6 +17,7 @@ module.exports = {
           "error",
           {
             argsIgnorePattern: "^_",
+            varsIgnorePattern: "^_",
           },
         ],
         "no-useless-constructor": "off",
