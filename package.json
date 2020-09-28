@@ -33,11 +33,11 @@
     "eslint-plugin-sort": ">= 1"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.11.0",
-    "@typescript-eslint/parser": "^3.0.0",
-    "eslint-config-prettier": "^6.11.0"
+    "@babel/eslint-parser": "^7.11.5",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint-config-prettier": "^6.12.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.1.2"
   }
 }
