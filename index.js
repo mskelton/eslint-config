@@ -18,5 +18,6 @@ module.exports = {
         varsIgnorePattern: "^_",
       },
     ],
+    "object-shorthand": "warn",
   },
 };
