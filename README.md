@@ -14,13 +14,13 @@ This package contains a simple and sensible ESLint config that you can use to ge
 ## Installation
 
 ```sh
-npm install --save-dev @mskelton/eslint-config
+npm install -D @mskelton/eslint-config
 ```
 
 After installing the package, install the required peer dependencies.
 
 ```sh
-npm install --save-dev eslint eslint-plugin-sort
+npm install -D @babel/core @babel/eslint-parser eslint eslint-plugin-sort
 ```
 
 ### TypeScript
@@ -28,7 +28,7 @@ npm install --save-dev eslint eslint-plugin-sort
 If using TypeScript, install the following peer dependencies in addition to the list above.
 
 ```sh
-npm install --save-dev @typescript-eslint/eslint-plugin
+npm install -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 ### Jest
@@ -36,7 +36,7 @@ npm install --save-dev @typescript-eslint/eslint-plugin
 If using Jest, install the following peer dependencies in addition to the list above.
 
 ```sh
-npm install --save-dev eslint-plugin-jest
+npm install -D eslint-plugin-jest
 ```
 
 ### React
@@ -44,30 +44,23 @@ npm install --save-dev eslint-plugin-jest
 If using React, install the following peer dependencies in addition to the list above.
 
 ```sh
-npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
+npm install -D eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 ## Usage
 
-In your `.eslintrc` file, add `@mskelton` to the list of extended configurations.
+In your `.eslintrc` file, add the following content including the configs you want for your project.
 
 ```json
 {
-  "extends": ["@mskelton"]
+  "extends": [
+    "@mskelton",
+    "@mskelton/eslint-config/typescript",
+    "@mskelton/eslint-config/react",
+    "@mskelton/eslint-config/jest"
+  ]
 }
 ```
-
-### TypeScript
-
-If using TypeScript, add `@mskelton/eslint-config/typescript` to the ESLint `extends` list.
-
-### Jest
-
-If using Jest, add `@mskelton/eslint-config/jest` to the ESLint `extends` list.
-
-### React
-
-If using React, add `@mskelton/eslint-config/react` to the ESLint `extends` list.
 
 ## Contributors ✨
 
