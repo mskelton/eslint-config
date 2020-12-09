@@ -1,0 +1,9 @@
+{
+  "branches": [
+    "master",
+    {
+      "name": "alpha",
+      "prerelease": true
+    }
+  ]
+}
