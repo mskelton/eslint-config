@@ -33,10 +33,10 @@
     "@typescript-eslint/eslint-plugin": ">= 4",
     "@typescript-eslint/parser": ">= 4",
     "eslint": ">= 6",
-    "eslint-plugin-sort": ">= 1",
     "eslint-plugin-jest": ">= 24",
     "eslint-plugin-react": ">= 7",
-    "eslint-plugin-react-hooks": ">= 4"
+    "eslint-plugin-react-hooks": ">= 4",
+    "eslint-plugin-sort": ">= 1"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
@@ -63,6 +63,7 @@
     "@babel/eslint-parser": "^7.12.1",
     "eslint": "^7.15.0",
     "eslint-plugin-sort": "^1.5.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "semantic-release": "^17.3.0"
   }
 }
