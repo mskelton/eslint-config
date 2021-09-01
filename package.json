@@ -11,7 +11,7 @@
     "url": "https://github.com/mskelton/eslint-config/issues"
   },
   "homepage": "https://github.com/mskelton/eslint-config#readme",
-  "license": "MIT",
+  "license": "ISC",
   "keywords": [
     "eslint",
     "eslint-config",
