@@ -3,14 +3,11 @@
   "description": "Simple and sensible ESLint config.",
   "version": "0.0.0-semantically-released",
   "author": "Mark Skelton",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mskelton/eslint-config.git"
-  },
+  "repository": "github:mskelton/eslint-config",
+  "homepage": "https://github.com/mskelton/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/mskelton/eslint-config/issues"
   },
-  "homepage": "https://github.com/mskelton/eslint-config#readme",
   "license": "ISC",
   "keywords": [
     "eslint",
@@ -30,13 +27,13 @@
   "peerDependencies": {
     "@babel/core": ">= 7",
     "@babel/eslint-parser": ">= 7",
-    "@typescript-eslint/eslint-plugin": ">= 4",
-    "@typescript-eslint/parser": ">= 4",
-    "eslint": ">= 6",
-    "eslint-plugin-jest": ">= 24",
+    "@typescript-eslint/eslint-plugin": ">= 5",
+    "@typescript-eslint/parser": ">= 5",
+    "eslint": ">= 8",
+    "eslint-plugin-jest": ">= 25",
     "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": ">= 4",
-    "eslint-plugin-sort": ">= 1"
+    "eslint-plugin-sort": ">= 2"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
@@ -56,14 +53,14 @@
     }
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.12.0"
+    "eslint-config-prettier": "^8.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/eslint-parser": "^7.12.1",
-    "eslint": "^7.15.0",
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.16.5",
+    "eslint": "^8.6.0",
     "eslint-plugin-sort": "^1.5.0",
-    "prettier": "^2.1.2",
-    "semantic-release": "^17.3.0"
+    "prettier": "^2.5.1",
+    "semantic-release": "^18.0.1"
   }
 }

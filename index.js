@@ -1,8 +1,4 @@
 module.exports = {
-  env: {
-    es6: true,
-    node: true,
-  },
   extends: ["eslint:recommended", "plugin:sort/recommended", "prettier"],
   parser: "@babel/eslint-parser",
   parserOptions: {
@@ -10,6 +6,10 @@ module.exports = {
     requireConfigFile: false,
   },
   plugins: ["sort"],
+  env: {
+    es6: true,
+    node: true,
+  },
   rules: {
     "no-unused-vars": [
       "error",
@@ -20,4 +20,4 @@ module.exports = {
     ],
     "object-shorthand": "warn",
   },
-};
+}
