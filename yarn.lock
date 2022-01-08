@@ -349,13 +349,13 @@ __metadata:
   peerDependencies:
     "@babel/core": ">= 7"
     "@babel/eslint-parser": ">= 7"
-    "@typescript-eslint/eslint-plugin": ">= 4"
-    "@typescript-eslint/parser": ">= 4"
-    eslint: ">= 6"
-    eslint-plugin-jest: ">= 24"
+    "@typescript-eslint/eslint-plugin": ">= 5"
+    "@typescript-eslint/parser": ">= 5"
+    eslint: ">= 8"
+    eslint-plugin-jest: ">= 25"
     eslint-plugin-react: ">= 7"
     eslint-plugin-react-hooks: ">= 4"
-    eslint-plugin-sort: ">= 1"
+    eslint-plugin-sort: ">= 2"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
