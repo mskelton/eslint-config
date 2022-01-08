@@ -1,14 +1,19 @@
 module.exports = {
-  env: {
-    browser: true,
-  },
-  extends: ["plugin:react/recommended", "prettier/react"],
+  extends: "plugin:react/recommended",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
   plugins: ["react-hooks"],
+  env: {
+    browser: true,
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   rules: {
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
@@ -21,9 +26,4 @@ module.exports = {
     ],
     "react/prop-types": "off",
   },
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
-};
+}
