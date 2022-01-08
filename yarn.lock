@@ -343,7 +343,7 @@ __metadata:
     "@babel/eslint-parser": ^7.16.5
     eslint: ^8.6.0
     eslint-config-prettier: ^8.3.0
-    eslint-plugin-sort: ^1.5.0
+    eslint-plugin-sort: ^2.0.0
     prettier: ^2.5.1
     semantic-release: ^18.0.1
   peerDependencies:
@@ -1810,12 +1810,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "eslint-plugin-sort@npm:1.5.0"
+"eslint-plugin-sort@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "eslint-plugin-sort@npm:2.0.0"
   peerDependencies:
     eslint: ">=6"
-  checksum: 55a4917d8b803c76a7427a724dda33b95824e6ec3142dd31ca1fe82bb76deae579b89b205144040f9ddf0ed60bb2de42718fbafc02d50d31dffc653709ab22b4
+  checksum: 124e0a1a19f471f12047116e82f41d60f81d88bcebd88251ad4dad9592f82003bd7e93a66c97996a4a05c521ee26fda3ea7e96c9825c52ee219486855efbab3d
   languageName: node
   linkType: hard
 
