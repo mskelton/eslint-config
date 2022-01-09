@@ -33,7 +33,7 @@
     "eslint-plugin-jest": ">= 25",
     "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": ">= 4",
-    "eslint-plugin-sort": ">= 2"
+    "eslint-plugin-sort": ">= 2.2.0"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
@@ -56,10 +56,6 @@
     "eslint-config-prettier": "^8.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@babel/eslint-parser": "^7.16.5",
-    "eslint": "^8.6.0",
-    "eslint-plugin-sort": "^2.0.0",
     "prettier": "^2.5.1",
     "semantic-release": "^18.0.1"
   }
