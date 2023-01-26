@@ -3,7 +3,7 @@ module.exports = {
     {
       extends: "plugin:@typescript-eslint/recommended",
       parser: "@typescript-eslint/parser",
-      files: ["*.ts", "*.tsx"],
+      files: ["*.ts", "*.tsx", "*.mts", "*.cts"],
       rules: {
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
