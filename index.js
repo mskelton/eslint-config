@@ -11,6 +11,7 @@ module.exports = {
     node: true,
   },
   rules: {
+    "arrow-body-style": ["error", "as-needed"],
     "no-unused-vars": [
       "error",
       {
