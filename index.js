@@ -18,6 +18,7 @@ module.exports = {
         varsIgnorePattern: "^_",
       },
     ],
+    "no-useless-rename": "warn",
     "object-shorthand": "warn",
   },
 }
