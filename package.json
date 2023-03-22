@@ -22,7 +22,8 @@
   "files": [
     "typescript.js",
     "jest.js",
-    "react.js"
+    "react.js",
+    "playwright.js"
   ],
   "peerDependencies": {
     "@babel/core": ">= 7",
