@@ -21,6 +21,7 @@ module.exports = {
         ],
         "no-useless-constructor": "off",
         "sort/type-properties": "warn",
+        "sort/string-unions": "warn",
       },
     },
   ],
