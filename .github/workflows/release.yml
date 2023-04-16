@@ -4,8 +4,8 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: mskelton/setup-yarn@v1
-      - run: yarn semantic-release
+      - uses: mskelton/setup-pnpm@v1
+      - run: pnpm semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
