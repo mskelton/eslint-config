@@ -32,18 +32,6 @@ module.exports = {
         typeOrder: "last",
       },
     ],
-    "sort/exports": [
-      "warn",
-      {
-        groups: [
-          { type: "default", order: 50 },
-          { type: "sourceless", order: 40 },
-          { regex: "^\\.+\\/", order: 30 },
-          { type: "dependency", order: 10 },
-          { type: "other", order: 20 },
-        ],
-        typeOrder: "last",
-      },
-    ],
+    "sort/exports": "off",
   },
 }
