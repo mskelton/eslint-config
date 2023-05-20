@@ -1,9 +1,13 @@
 module.exports = {
-  extends: ["eslint:recommended", "plugin:sort/recommended", "prettier"],
-  parser: "@babel/eslint-parser",
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:sort/recommended",
+    "prettier",
+  ],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2018,
-    requireConfigFile: false,
   },
   plugins: ["sort"],
   env: {
@@ -11,6 +15,24 @@ module.exports = {
     node: true,
   },
   rules: {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-useless-constructor": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        argsIgnorePattern: "^_",
+        varsIgnorePattern: "^_",
+      },
+    ],
+    "no-useless-constructor": "off",
+    "sort/type-properties": "warn",
+    "sort/string-enums": "warn",
+    "sort/string-unions": "warn",
     "no-unused-vars": [
       "error",
       {

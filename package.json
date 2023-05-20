@@ -20,14 +20,11 @@
   },
   "main": "index.js",
   "files": [
-    "typescript.js",
     "jest.js",
     "react.js",
     "playwright.js"
   ],
   "peerDependencies": {
-    "@babel/core": ">= 7",
-    "@babel/eslint-parser": ">= 7",
     "@typescript-eslint/eslint-plugin": ">= 5",
     "@typescript-eslint/parser": ">= 5",
     "eslint": ">= 8",
@@ -37,19 +34,13 @@
     "eslint-plugin-sort": ">= 2.10.0"
   },
   "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "@typescript-eslint/parser": {
-      "optional": true
-    },
-    "eslint-plugin-jest": {
-      "optional": true
-    },
     "eslint-plugin-react": {
       "optional": true
     },
     "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
       "optional": true
     }
   },
