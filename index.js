@@ -33,13 +33,7 @@ module.exports = {
     "sort/type-properties": "warn",
     "sort/string-enums": "warn",
     "sort/string-unions": "warn",
-    "no-unused-vars": [
-      "error",
-      {
-        argsIgnorePattern: "^_",
-        varsIgnorePattern: "^_",
-      },
-    ],
+    "no-unused-vars": "off",
     "no-useless-rename": "warn",
     "object-shorthand": "warn",
     "sort/imports": [
