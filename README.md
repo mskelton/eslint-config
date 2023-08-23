@@ -28,6 +28,15 @@ above.
 npm install -D eslint-plugin-react eslint-plugin-react-hooks
 ```
 
+### Vitest
+
+If using Vitest, install the following peer dependencies in addition to the list
+above.
+
+```sh
+npm install -D eslint-plugin-vitest
+```
+
 ### Jest
 
 If using Jest, install the following peer dependencies in addition to the list
@@ -47,7 +56,9 @@ want for your project.
   "extends": [
     "@mskelton",
     "@mskelton/eslint-config/react",
-    "@mskelton/eslint-config/jest"
+    "@mskelton/eslint-config/vitest",
+    "@mskelton/eslint-config/jest",
+    "@mskelton/eslint-config/playwright"
   ]
 }
 ```

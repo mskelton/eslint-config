@@ -22,7 +22,8 @@
   "files": [
     "jest.js",
     "react.js",
-    "playwright.js"
+    "playwright.js",
+    "vitest.js"
   ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 5",
@@ -31,7 +32,8 @@
     "eslint-plugin-jest": ">= 25",
     "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": ">= 4",
-    "eslint-plugin-sort": ">= 2.10.0"
+    "eslint-plugin-sort": ">= 2.10.0",
+    "eslint-plugin-vitest": ">= 0.2.8"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-react": {
@@ -41,6 +43,9 @@
       "optional": true
     },
     "eslint-plugin-jest": {
+      "optional": true
+    },
+    "eslint-plugin-vitest": {
       "optional": true
     }
   },
