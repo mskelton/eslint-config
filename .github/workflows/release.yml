@@ -3,6 +3,10 @@ on: [push]
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
       - uses: mskelton/setup-pnpm@v1
       - run: pnpm semantic-release
