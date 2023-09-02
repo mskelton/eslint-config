@@ -35,6 +35,7 @@ module.exports = {
     "sort/string-unions": "warn",
     "no-unused-vars": "off",
     "no-useless-rename": "warn",
+    "prefer-template": "error",
     "object-shorthand": "warn",
     "sort/imports": [
       "warn",
