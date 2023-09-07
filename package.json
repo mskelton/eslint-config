@@ -3,6 +3,7 @@
   "description": "Simple and sensible ESLint config.",
   "version": "0.0.0-semantically-released",
   "author": "Mark Skelton",
+  "packageManager": "pnpm@8.7.4",
   "repository": "github:mskelton/eslint-config",
   "homepage": "https://github.com/mskelton/eslint-config#readme",
   "bugs": {

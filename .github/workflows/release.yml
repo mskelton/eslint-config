@@ -8,7 +8,7 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - uses: mskelton/setup-pnpm@v1
+      - uses: mskelton/setup-pnpm@v2
       - run: pnpm semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
