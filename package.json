@@ -25,6 +25,10 @@
     "playwright.js",
     "vitest.js"
   ],
+  "scripts": {
+    "lint": "eslint .",
+    "fmt": "prettier --write ."
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 5",
     "@typescript-eslint/parser": ">= 5",
@@ -53,7 +57,9 @@
     "eslint-config-prettier": "^8.3.0"
   },
   "devDependencies": {
-    "semantic-release": "^19.0.3",
-    "prettier": "^3.0.3"
+    "eslint": "^8.49.0",
+    "eslint-plugin-sort": "^2.10.0",
+    "prettier": "^3.0.3",
+    "semantic-release": "^19.0.3"
   }
 }
