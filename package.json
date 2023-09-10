@@ -3,7 +3,6 @@
   "description": "Simple and sensible ESLint config.",
   "version": "0.0.0-semantically-released",
   "author": "Mark Skelton",
-  "packageManager": "pnpm@8.7.4",
   "repository": "github:mskelton/eslint-config",
   "homepage": "https://github.com/mskelton/eslint-config#readme",
   "bugs": {
@@ -54,7 +53,7 @@
     "eslint-config-prettier": "^8.3.0"
   },
   "devDependencies": {
-    "prettier": "^2.5.1",
-    "semantic-release": "^19.0.3"
+    "semantic-release": "^19.0.3",
+    "prettier": "^3.0.3"
   }
 }
