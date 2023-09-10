@@ -1,10 +1,10 @@
 module.exports = {
   overrides: [
     {
-      extends: ["plugin:jest/recommended", "plugin:jest/style"],
-      plugins: ["jest"],
       env: { jest: true },
+      extends: ["plugin:jest/recommended", "plugin:jest/style"],
       files: ["**/__tests__/**", "*.{spec,test}.{js,jsx,ts,tsx}"],
+      plugins: ["jest"],
     },
     {
       env: { jest: true },

@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    browser: true,
+  },
   extends: "plugin:react/recommended",
   parserOptions: {
     ecmaFeatures: {
@@ -6,17 +9,7 @@ module.exports = {
     },
   },
   plugins: ["react-hooks"],
-  env: {
-    browser: true,
-  },
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
   rules: {
-    "react-hooks/exhaustive-deps": "warn",
-    "react-hooks/rules-of-hooks": "error",
     "react/button-has-type": "error",
     "react/destructuring-assignment": "error",
     "react/function-component-definition": [
@@ -33,5 +26,12 @@ module.exports = {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
   },
 }
