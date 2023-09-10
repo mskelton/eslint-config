@@ -33,6 +33,7 @@ module.exports = {
     "sort/type-properties": "warn",
     "sort/string-enums": "warn",
     "sort/string-unions": "warn",
+    "no-template-curly-in-string": "error",
     "no-unused-vars": "off",
     "no-useless-rename": "warn",
     "prefer-template": "error",
