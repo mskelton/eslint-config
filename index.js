@@ -33,6 +33,7 @@ module.exports = {
     "no-unused-vars": "off",
     "no-useless-constructor": "off",
     "no-useless-rename": "warn",
+    "no-var": "error",
     "object-shorthand": "warn",
     "prefer-template": "error",
     "sort/exports": "off",
