@@ -12,6 +12,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2018,
+    loggerFn: false,
   },
   plugins: ["sort"],
   rules: {
