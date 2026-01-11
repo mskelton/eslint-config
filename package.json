@@ -1,27 +1,24 @@
 {
   "name": "@mskelton/eslint-config",
-  "description": "Simple and sensible ESLint config.",
   "version": "0.0.0-semantically-released",
-  "author": "Mark Skelton",
-  "repository": "github:mskelton/eslint-config",
+  "description": "Simple and sensible ESLint config.",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-react",
+    "eslint-typescript"
+  ],
   "homepage": "https://github.com/mskelton/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/mskelton/eslint-config/issues"
   },
   "license": "ISC",
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "eslint-typescript",
-    "eslint-react"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "type": "module",
+  "author": "Mark Skelton",
+  "repository": "github:mskelton/eslint-config",
   "files": [
     "lib"
   ],
+  "type": "module",
   "types": "./lib/index.d.ts",
   "exports": {
     ".": {
@@ -29,12 +26,13 @@
       "import": "./lib/index.js"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint .",
-    "fmt": "prettier --write ."
-  },
-  "peerDependencies": {
-    "eslint": ">= 9"
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check ."
   },
   "dependencies": {
     "@eslint/js": "^9.13.0",
@@ -51,9 +49,11 @@
     "typescript-eslint": "^8.11.0"
   },
   "devDependencies": {
-    "@mskelton/semantic-release-config": "^1.0.1",
     "eslint": "^9.13.0",
-    "prettier": "^3.0.3",
-    "semantic-release": "^23.0.2"
+    "oxfmt": "^0.23.0",
+    "semantic-release": "^25.0.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
   }
 }

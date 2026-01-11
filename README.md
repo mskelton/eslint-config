@@ -25,7 +25,7 @@ In your `eslint.config.mjs` file, add the following content including the
 configs you want for your project.
 
 ```js
-import mskelton from "@mskelton/eslint-config"
+import mskelton from '@mskelton/eslint-config'
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -33,15 +33,15 @@ export default [
   mskelton.react,
   {
     ...mskelton.playwright,
-    files: ["test/**/*.spec.ts"],
+    files: ['test/**/*.spec.ts'],
   },
   {
     ...mskelton.vitest,
-    files: ["**/__tests__/**/*.{spec,test}.{js,jsx,cjs,mjs,ts,tsx,cts,mts}"],
+    files: ['**/__tests__/**/*.{spec,test}.{js,jsx,cjs,mjs,ts,tsx,cts,mts}'],
   },
   {
     ...mskelton.jest,
-    files: ["**/__tests__/**/*.{spec,test}.{js,jsx,cjs,mjs,ts,tsx,cts,mts}"],
+    files: ['**/__tests__/**/*.{spec,test}.{js,jsx,cjs,mjs,ts,tsx,cts,mts}'],
   },
 ]
 ```
